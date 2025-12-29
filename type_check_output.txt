@@ -1,0 +1,19 @@
+
+> peniwyse-canada-usdc-wallet@0.1.0 type-check
+> tsc --noEmit
+
+src/components/landing/feature-grid.tsx(147,57): error TS1127: Invalid character.
+src/components/landing/feature-grid.tsx(149,33): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/landing/feature-grid.tsx(149,34): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/landing/feature-grid.tsx(150,32): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/landing/feature-grid.tsx(151,31): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/landing/feature-grid.tsx(250,44): error TS1127: Invalid character.
+src/components/landing/feature-grid.tsx(250,185): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/landing/feature-grid.tsx(251,42): error TS1127: Invalid character.
+src/components/landing/feature-grid.tsx(251,58): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/landing/feature-grid.tsx(251,59): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/landing/feature-grid.tsx(252,18): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/landing/feature-grid.tsx(253,17): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/landing/three-background/canvas.tsx(107,29): error TS1127: Invalid character.
+src/components/landing/three-background/canvas.tsx(236,1): error TS1160: Unterminated template literal.
+src/components/landing/three-background/shaders.ts(99,1): error TS1160: Unterminated template literal.

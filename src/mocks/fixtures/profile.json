@@ -1,0 +1,59 @@
+{
+    "id": "user-demo",
+    "email": "demo@example.com",
+    "firstName": "John",
+    "lastName": "Doe",
+    "phoneNumber": "+1 (416) 555-0123",
+    "emailVerified": true,
+    "phoneVerified": true,
+    "createdAt": "2023-12-01T00:00:00Z",
+    "wallet": {
+        "id": "wallet-demo",
+        "userId": "user-demo",
+        "cadBalance": 120.00,
+        "usdcBalance": 270.37,
+        "usdcAddress": "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb",
+        "chainId": 8453,
+        "chainName": "Base",
+        "createdAt": "2023-12-01T00:00:00Z",
+        "updatedAt": "2024-01-28T16:45:00Z"
+    },
+    "kycProfile": {
+        "id": "kyc-demo",
+        "userId": "user-demo",
+        "status": "approved",
+        "tier": 2,
+        "firstName": "John",
+        "lastName": "Doe",
+        "dateOfBirth": "1990-05-15T00:00:00Z",
+        "address": {
+            "street": "123 Main Street",
+            "city": "Toronto",
+            "province": "ON",
+            "postalCode": "M5V 3A8",
+            "country": "Canada"
+        },
+        "phoneNumber": "+1 (416) 555-0123",
+        "documents": [
+            {
+                "id": "doc-001",
+                "type": "drivers_license",
+                "fileName": "drivers_license.jpg",
+                "fileUrl": "/mock/documents/drivers_license.jpg",
+                "uploadedAt": "2023-12-05T10:00:00Z",
+                "status": "approved"
+            },
+            {
+                "id": "doc-002",
+                "type": "selfie",
+                "fileName": "selfie.jpg",
+                "fileUrl": "/mock/documents/selfie.jpg",
+                "uploadedAt": "2023-12-05T10:05:00Z",
+                "status": "approved"
+            }
+        ],
+        "submittedAt": "2023-12-05T10:10:00Z",
+        "reviewedAt": "2023-12-06T14:30:00Z",
+        "approvedAt": "2023-12-06T14:30:00Z"
+    }
+}

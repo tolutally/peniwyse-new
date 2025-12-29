@@ -1,0 +1,42 @@
+[
+    {
+        "id": "stmt-2024-01",
+        "userId": "user-demo",
+        "month": "2024-01",
+        "startDate": "2024-01-01T00:00:00Z",
+        "endDate": "2024-01-31T23:59:59Z",
+        "openingBalance": {
+            "cad": 0,
+            "usdc": 0
+        },
+        "closingBalance": {
+            "cad": 120,
+            "usdc": 270.37
+        },
+        "totalDeposits": 500,
+        "totalWithdrawals": 0,
+        "totalFees": 4.10,
+        "transactionCount": 5,
+        "generatedAt": "2024-02-01T00:00:00Z"
+    },
+    {
+        "id": "stmt-2023-12",
+        "userId": "user-demo",
+        "month": "2023-12",
+        "startDate": "2023-12-01T00:00:00Z",
+        "endDate": "2023-12-31T23:59:59Z",
+        "openingBalance": {
+            "cad": 0,
+            "usdc": 0
+        },
+        "closingBalance": {
+            "cad": 0,
+            "usdc": 0
+        },
+        "totalDeposits": 0,
+        "totalWithdrawals": 0,
+        "totalFees": 0,
+        "transactionCount": 0,
+        "generatedAt": "2024-01-01T00:00:00Z"
+    }
+]

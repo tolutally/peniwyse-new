@@ -1,0 +1,91 @@
+MVP: Canada USDC Wallet + Withdraw to Canada + USDC Receive
+One sentence
+
+A compliant Canada-based wallet that lets users fund with CAD, convert to USDC, receive USDC, and cash out to CAD—fast.
+
+Target users for MVP
+Canadian Nigerians / diaspora who already move money / hold USD value
+
+Freelancers in Canada who receive USDC (or want USD exposure)
+
+Businesses in Canada paying contractors internationally (later)
+
+Core flows (MVP v1)
+
+1) On-ramp
+
+User e-Transfers / bill pay / EFT → CAD balance
+
+Convert CAD → USDC (in-app)
+
+2) Off-ramp
+
+Convert USDC → CAD
+
+Withdraw to Canadian bank account (EFT)
+
+3) Receive
+
+Give the user a USDC deposit address (custodial or segregated, your choice)
+
+User receives USDC from anywhere (with screening/monitoring)
+
+Why this is the correct MVP?
+
+Fast to build vs card issuing + merchant acquiring
+Revenue early: spread + fees on conversions/withdrawals
+Proof of demand: deposits, repeats, retention
+Proof of moat: can you run compliant rails cleanly + reliably?
+
+MVP Scope: exactly what to build
+Must-haves
+
+KYC onboarding + sanctions/PEP screening
+
+Basic risk rules (limits, velocity checks, country restrictions)
+
+CAD funding method (start with e-Transfer or EFT depending on partner)
+
+CAD↔USDC conversion
+
+USDC receive address + transaction history
+
+Withdraw to CAD bank
+
+Customer support + dispute workflow
+
+Statements/receipts (surprisingly important for trust)
+
+Nice-to-haves (still MVP-friendly)
+
+“Lock USD value” view (show USDC as “Digital USD”)
+
+Savings “vault” (purely UI at first)
+
+Transparent fees page + live quote
+
+Do NOT build in MVP
+
+Card issuance
+
+Merchant checkout
+
+Nigeria merchant acceptance
+
+Full crypto multi-asset support
+
+Multiple chains (start with one: likely Ethereum L2 like Base/Arbitrum, depending on partner)
+
+Monetization (MVP)
+
+Keep it simple:
+Conversion spread (CAD↔USDC)
+Withdrawal fee (flat or tiered)
+optional: subscription for higher limits / faster settlement
+
+MVP success metrics (what “traction” looks like)
+% users who fund within 7 days
+average deposits per user/month
+repeat conversion rate (second conversion within 30 days)
+average revenue per user/month
+compliance metrics: fraud rate, suspicious activity rate, chargeback exposure (should be near-zero if we avoid cards early)
